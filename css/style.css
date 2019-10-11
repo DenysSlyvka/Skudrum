@@ -15,10 +15,14 @@
 
 /* Header/Logo Title */
 .header {
+  position: relative;
   overflow-x:hidden;
-  padding: 60px;
+  padding: 30px;
+  width: 100%;
+  float: center;
   text-align: center;
-  background: #1abc9c;
+  background: #161817;
   color: white;
-  font-size: 400px;
+  font-size: 30px;
+  opacity: 0.4;
 }
