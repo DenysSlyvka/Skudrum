@@ -9,10 +9,11 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/login.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
   <nav class="light-blue lighten-1" style="position:fixed;z-index: 99;"role="navigation">
-    <div class="nav-wrapper container" ><a id="logo-container" href="#" class="brand-logo">Skudrum</a>
+    <div class="nav-wrapper container" ><a id="logo-container" href="index.html" class="brand-logo">Skudrum</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#">Aanmelden</a></li>
         <li>
@@ -55,7 +56,33 @@
     <div class="section">
 
       <!--   Icon Section   -->
-     
+      <div class="wrapper fadeInDown">
+            <div id="formContent">
+              <!-- Tabs Titles -->
+              <h2 class="active"> Sign In </h2>
+              <h2 class="inactive underlineHover">Sign Up </h2>
+          
+              <!-- Icon -->
+              <div class="fadeIn first">
+                <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" />
+              </div>
+          
+              <!-- Login Form -->
+              <form>
+                <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
+                <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+                <input type="submit" class="fadeIn fourth" value="Log In">
+              </form>
+          
+              <!-- Remind Passowrd -->
+              <div id="formFooter">
+                <a class="underlineHover" href="#">Forgot Password?</a>
+              </div>
+          
+            </div>
+          </div>
+        </div>
+  </div>
       
 
 
